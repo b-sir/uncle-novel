@@ -153,10 +153,10 @@ public class App extends BaseApplication {
     super.start(stage);
     initStage(stage);
     stage.show();
-    ModalBox.none().message("bye~").title("bye~").cancel("bye~").showAndWait();
-    App.stopApp();
+    //ModalBox.none().message("bye~").title("bye~").cancel("bye~").showAndWait();
+    //App.stopApp();
     // 检测更新
-    UpdateUtils.checkForUpdate(stage);
+    //UpdateUtils.checkForUpdate(stage);
     MixPanelHelper.event(EVENT_LAUNCH);
     log.trace("启动耗时：{}ms", (System.currentTimeMillis() - LAUNCH_TIME));
   }
